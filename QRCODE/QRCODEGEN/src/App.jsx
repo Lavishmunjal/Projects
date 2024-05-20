@@ -27,7 +27,9 @@ function App() {
         <button onClick={handleGenerateQrCode}>generate</button>
       </div>
       <div>
-        <QRCode id="qr" value={qrCode} size={200}></QRCode>
+        <QRCode id="qr" value={qrCode} size={200}>
+          {" "}
+        </QRCode>
       </div>
     </div>
   );
